@@ -12,7 +12,7 @@ config_map_content = '''
     <title>Pulumi Kubernetes Demo</title>
 </head>
 <body>
-    <h1>Hello from Pulumi Kubernetes!</h1>
+    <h1>Hello World, from Pulumi Kubernetes!</h1>
 </body>
 </html>
 '''
