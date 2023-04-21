@@ -1,0 +1,6 @@
+name: pulumi-k8s-nginx-demo
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Sample nginx pod
