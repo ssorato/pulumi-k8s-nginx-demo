@@ -19,7 +19,7 @@ config_map_content = '''
 
 config_map = ConfigMap(
     'nginx-index',
-    metadata={'name': 'nginx'},
+    metadata={},
     data={'index.html': config_map_content},
 )
 
