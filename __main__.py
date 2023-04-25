@@ -2,8 +2,6 @@ import pulumi
 from pulumi_kubernetes.apps.v1 import Deployment
 from pulumi_kubernetes.core.v1 import ConfigMap, Service
 from pulumi_kubernetes.core.v1 import ServicePortArgs
-from pulumi_kubernetes.meta.v1 import ObjectMetaArgs
-from pulumi_kubernetes.core.v1 import VolumeArgs
 
 config_map_content = '''
 <!DOCTYPE html>
